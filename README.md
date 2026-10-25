@@ -63,5 +63,3 @@ tools/             gen_sample_pcap.py
 - Only Ethernet (DLT_EN10MB) captures are decoded. IPv6 frames are reported by ethertype only.
 - Live captures on hosts with checksum offload may show "BAD IP CHECKSUM" for outgoing packets;
   the checksum is filled in by the NIC after libpcap sees the frame.
-## Latest Updates
-Updated project documentation and features.
