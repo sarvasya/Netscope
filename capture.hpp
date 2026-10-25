@@ -5,7 +5,7 @@
 #include <sys/time.h>
 #include <utility>
 #include <vector>
-
+// capturing
 struct pcap;  // forward decl (pcap_t is `struct pcap`)
 
 namespace netscope {

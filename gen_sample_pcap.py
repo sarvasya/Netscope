@@ -2,7 +2,7 @@
 """Generate samples/sample.pcap: ARP request/reply/gratuitous/spoof, TCP, UDP, ICMP, a bad-checksum
 packet and a VLAN frame. Standard library only. Usage: python3 tools/gen_sample_pcap.py [out.pcap]"""
 import socket, struct, sys, os
-
+## samples
 def mac(s): return bytes(int(x, 16) for x in s.split(":"))
 def ip(s): return socket.inet_aton(s)
 

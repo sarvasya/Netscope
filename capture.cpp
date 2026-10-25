@@ -3,7 +3,7 @@
 #include <pcap/pcap.h>
 
 namespace netscope {
-
+// upadted
 Capture::~Capture() {
     if (handle_) pcap_close(handle_);
 }

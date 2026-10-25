@@ -33,7 +33,7 @@ int main() {
     CHECK(s && s->usable_hosts == 254 && s->total_addresses == 256);
     CHECK(s && s->ip_class == "C" && s->scope == "Private (RFC 1918)");
 
-    // non-octet boundary: 192.168.10.77/26 -> .64 - .127
+    // non-octet boundary: 192.168.10.77/26 -> .64 - .127 
     s = calculateSubnet("192.168.10.77/26");
     CHECK(s && ipToString(s->network) == "192.168.10.64");
     CHECK(s && ipToString(s->broadcast) == "192.168.10.127");

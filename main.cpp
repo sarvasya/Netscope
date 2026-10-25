@@ -1,4 +1,4 @@
-// NetScope - IPv4 and ARP network analyzer
+// NetScope - IPv4 and ARP network analyzer main file
 #include <csignal>
 #include <ctime>
 #include <cstdio>

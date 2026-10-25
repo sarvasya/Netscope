@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <optional>
 #include <string>
-
+// packets
 namespace netscope {
 
 constexpr uint16_t ETHERTYPE_IPV4 = 0x0800;

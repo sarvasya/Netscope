@@ -5,7 +5,7 @@
 
 namespace netscope {
 
-// ---- IPv4 address helpers -------------------------------------------------
+// ---- IPv4 address helpers --------------------------------------------------
 // Parses strict dotted-quad ("192.168.1.10"). Rejects leading zeros and
 // out-of-range octets.
 std::optional<uint32_t> parseIPv4(const std::string& s);

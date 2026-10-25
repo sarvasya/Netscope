@@ -10,7 +10,7 @@ endif()
 
 add_compile_options(-Wall -Wextra -Wpedantic)
 
-# ---- Core library: no libpcap dependency, fully unit-testable -------------
+# ---- Core library: no libpcap dependency, fully unit-testable --------------
 add_library(netscope_core STATIC
   src/subnet.cpp
   src/parser.cpp
@@ -38,3 +38,4 @@ add_test(NAME subnet COMMAND test_subnet)
 add_executable(test_parser tests/test_parser.cpp)
 target_link_libraries(test_parser PRIVATE netscope_core)
 add_test(NAME parser COMMAND test_parser)
+

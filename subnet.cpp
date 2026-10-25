@@ -2,7 +2,7 @@
 
 #include <cctype>
 #include <sstream>
-
+//subnet part
 namespace netscope {
 
 std::optional<uint32_t> parseIPv4(const std::string& s) {
