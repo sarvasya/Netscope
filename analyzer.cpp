@@ -66,4 +66,4 @@ std::string Analyzer::summary() const {
     return o.str();
 }
 
-}  // namespace netscope 
+}  // namespace netscopeohb
